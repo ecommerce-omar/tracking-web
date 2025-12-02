@@ -48,6 +48,7 @@ export const trackingStatusSchema = z.enum([
   "Objeto não entregue",
   "Objeto entregue na Caixa de Correios Inteligente",
   "Objeto entregue ao remetente",
+  "Objeto será devolvido por solicitação do contratante/remetente",
   "Objeto não entregue - endereço insuficiente",
   "Objeto não entregue - endereço incorreto",
   "Objeto não entregue - carteiro não atendido",
@@ -157,6 +158,7 @@ export const TrackingStatus = {
 
   // 🟧 Devolvido / Cancelado
   ENTREGUE_REMETENTE: "Objeto entregue ao remetente" as const,
+  SERA_DEVOLVIDO_SOLICITACAO: "Objeto será devolvido por solicitação do contratante/remetente" as const,
   DEVOLVIDO: "Devolvido" as const,
   CANCELADO: "Cancelado" as const,
 } as const;

@@ -61,6 +61,7 @@ export const currentStatusIconMap: Record<TrackingStatusType, LucideIcon> = {
   "Objeto entregue ao destinatário": CheckIcon,
   "Objeto entregue ao remetente": CheckIcon,
   "Objeto entregue na Caixa de Correios Inteligente": CheckIcon,
+  "Objeto será devolvido por solicitação do contratante/remetente": Undo2,
   "Saída para entrega cancelada": Ban,
   Cancelado: Ban,
   Devolvido: Undo2,
