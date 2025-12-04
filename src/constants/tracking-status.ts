@@ -38,6 +38,9 @@ export const statusColorMap: Record<string, string> = {
   "Objeto não entregue - prazo de retirada encerrado": "bg-red-500",
   "Saída para entrega cancelada": "bg-red-500",
   "Objeto não encontrado": "bg-red-500",
+  "Favor desconsiderar a informação anterior": "bg-red-500",
+  "Inconsistências no endereçamento do objeto": "bg-red-500",
+  "Objeto será devolvido por solicitação do contratante/remetente": "bg-red-500",
 };
 
 export const statusLabelMap: Record<string, string> = {
@@ -70,6 +73,9 @@ export const statusLabelMap: Record<string, string> = {
   "Direcionado para entrega em unidade dos Correios a pedido do cliente":
     "Direcionado para unidade dos Correios",
   "Objeto não encontrado": "Objeto não encontrado",
+  "Favor desconsiderar a informação anterior": "Desconsiderar informação anterior",
+  "Inconsistências no endereçamento do objeto": "Inconsistências no endereçamento",
+  "Objeto será devolvido por solicitação do contratante/remetente": "Será devolvido por solicitação",
 
   // Status completados
   "Objeto entregue ao destinatário": "Objeto entregue ao destinatário",
@@ -104,6 +110,9 @@ export const statusGroups = {
   NOT_DELIVERED_PICKUP_EXPIRED:
     "Objeto não entregue - prazo de retirada encerrado",
   NOT_FOUND: "Objeto não encontrado",
+  DISREGARD_PREVIOUS: "Favor desconsiderar a informação anterior",
+  ADDRESS_INCONSISTENCIES: "Inconsistências no endereçamento do objeto",
+  WILL_BE_RETURNED: "Objeto será devolvido por solicitação do contratante/remetente",
   DELIVERED: "Objeto entregue ao destinatário",
   DELIVERED_SMART_BOX: "Objeto entregue na Caixa de Correios Inteligente",
   DELIVERED_TO_SENDER: "Objeto entregue ao remetente",
@@ -140,6 +149,9 @@ export const statusFilterMap: Record<string, string> = {
   "Objeto não entregue - prazo de retirada encerrado":
     statusGroups.NOT_DELIVERED_PICKUP_EXPIRED,
   "Objeto não encontrado": statusGroups.NOT_FOUND,
+  "Favor desconsiderar a informação anterior": statusGroups.DISREGARD_PREVIOUS,
+  "Inconsistências no endereçamento do objeto": statusGroups.ADDRESS_INCONSISTENCIES,
+  "Objeto será devolvido por solicitação do contratante/remetente": statusGroups.WILL_BE_RETURNED,
   "Objeto entregue ao destinatário": statusGroups.DELIVERED,
   "Objeto entregue na Caixa de Correios Inteligente":
     statusGroups.DELIVERED_SMART_BOX,
@@ -229,6 +241,9 @@ export const statusCategories = [
       "Objeto não entregue - endereço incorreto",
       "Objeto não entregue - prazo de retirada encerrado",
       "Objeto não encontrado",
+      "Favor desconsiderar a informação anterior",
+      "Inconsistências no endereçamento do objeto",
+      "Objeto será devolvido por solicitação do contratante/remetente",
     ],
   },
   {
